@@ -1,0 +1,42 @@
+/* Created by Felix Kandie*/
+body{
+   background:#222;
+}
+#main{
+   position:relative ;
+   top:200px; 
+   left:140px;
+}
+#main div{
+   width:7px;
+   background-color:#FF4500;
+   display:inline-block;
+    height:50px;
+    border-radius:5px;
+
+   
+}
+.loading1{
+ animation:loading .5s infinite linear alternate;
+}
+.loading2{  
+ animation:loading .5s .1s infinite linear alternate;
+}
+
+.loading3{
+animation:loading .5s .2s infinite linear alternate;
+}
+.loading4{
+   
+ animation:loading .5s .3s infinite linear alternate;
+    
+}
+.loading5{
+animation:loading .5s .4s infinite linear alternate
+    
+}
+@keyframes loading{
+   
+   100%{transform:scaleY(0);}
+  
+}
